@@ -1,0 +1,12 @@
+android list targets
+android create poject --target 1 --name peaches --path ~/code/uli.d/peaches --activity Main --package org.aschyiel.peaches
+android create test-project -m ~/code/uli.d/zounds -n ZoundsTest -p ZoundsTest
+
+
+adb start-server
+adb devices
+adb shell 
+
+# Note: requires debug-mode apk signing.
+ant debug
+adb install -r bin/Zounds-debug.apk

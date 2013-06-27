@@ -1,0 +1,14 @@
+
+ant.properties
+bin/
+build.xml
+gen/
+local.properties
+*.sublime-project
+*.sublime-workspace
+proguard-project.txt
+project.properties
+**/*~
+**/*.swo
+**/*.swp
+**/*.bak
